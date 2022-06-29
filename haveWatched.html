@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>movie watchlist</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="index.css">
+            <script defer src="index.js"></script>
+        </head>
+        <body>
+            <header>
+        
+            </header>
+            <section class="input-section">
+                <h1>movies I have watched</h1>
+                <div class="input">
+                    <div>
+                        <input onclick="copyPlaceholderWant()" type="text" class="placeholder" id="placeholderWant" placeholder="I want to watch">
+                    </div>
+                    <div> 
+                        <input onclick="copyPlaceholderHave()" type="text" class="placeholder" id="placeholderHave" placeholder="I have watched">
+                    </div>
+                </div>
+                <div class="button-section">
+               <div>
+                    <a onclick="wantWatch()" href= "wantToWatch.html" class="btn" id="wantBtn">visit: want to watch</a>
+                </div>
+                <div>
+                    <a href="index.html" class="btn" id="haveBtn">return to main</a>
+                </div>
+            </div>
+            </section>
+            <section class="containerHaveWatched">
+                <ul class="listHaveWatched" haveWatched-list>
+                        <li class="movieTitle" id="movieWatched">
+                            Tenet
+                        </li>
+                        <li class="movieTitle" id="movieWatched">
+                            Der Vorleser
+                        </li>
+                        <li class="movieTitle" id="movieWatched">
+                            Lust & Caution
+                        </li>
+                        <li class="movieTitle" id="movieWatched">
+                            Tenet
+                        </li>
+                        <li class="movieTitle" id="movieWatched">
+                            Der Vorleser
+                        </li>
+                        <li class="movieTitle" id="movieWatched">
+                            Lust & Caution
+                        </li>
+                        <li class="movieTitle" id="movieWatched">
+                            Tenet
+                        </li>
+                        <li class="movieTitle" id="movieWatched">
+                            Der Vorleser
+                        </li>
+                        <li class="movieTitle" id="movieWatched">
+                            Lust & Caution
+                        </li>
+                </ul>
+                </section>
+        </body>
+    </html>
