@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>movie watchlist</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="index.css">
+            <script defer src="index.js"></script>
+            <script>localStorage["key"] = value</script>
+        </head>
+        <body>
+            <header>
+            </header>
+            <div class="input-section">
+                <h1>my movie watchlist</h1>
+                <form class="input">
+                        <input onclick="getWant()" type="text" class="placeholder" id="getWant" placeholder="I want to watch">
+                        <input onclick="getHave()" type="text" class="placeholder" id="getHave" placeholder="I have watched" data-fetch-have-watched>
+                </form>
+            </div>
+            <div class="button-section">
+                    <a href= "wantToWatch.html" class="btn" id="wantBtn">visit: want to watch</a>
+                    <a href= "haveWatched.html" class="btn" id="haveBtn">visit: have watched</a>  
+            </div>
+        </body>
+    </html>

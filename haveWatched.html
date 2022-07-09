@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>movie watchlist</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="index.css">
+            <script defer src="index.js"></script>
+            <script>value = localStorage["key"]</script>
+        </head>
+        <body>
+            <header>
+            </header>
+            <section class="input-section">
+                <h1>movies I <span>have watched</span></h1>
+                <form class="input">
+                    <input onclick="getWant()" type="text" class="placeholder" id="getWant" placeholder="I want to watch">
+                    <input onclick="getHave()" type="text" class="placeholder" id="getHave" placeholder="I have watched" data-fetch-have-watched>
+                </form>
+                <div class="button-section">
+                    <a onclick="wantWatch()" href= "wantToWatch.html" class="btn" id="wantBtn">visit: want to watch</a>
+                    <a href="index.html" class="btn" id="haveBtn">return to main</a>
+                </div>
+            </section>
+
+
+            <section class="containerHaveWatched" id="listHaveWatched">
+                 
+                    <div class="movieHaveLine" id="movie-have-line" action="wantToWatch.html" method="GET">
+                        <div class="movieTitle" id="titleHaveWatched">Belle</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>    
+                    
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">Belle</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>    
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">Lorem ipsum dolor</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>    
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>    
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>    
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>    
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>    
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>    
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>  
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>  
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>  
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>  
+
+                    <div class="movieHaveLine" id="movie-have-line">
+                        <div class="movieTitle" id="title-have-watched">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watcheAgainBtn()" class="btn watch-again-Btn" id="watch-again-Btn-Id">again</button>
+                        </div>
+                    </div>  
+            
+            </section>
+            <button onclick="topBtn()" class="btn toTop" id="to-top-btn">top</button> 
+        </body>
+    </html>

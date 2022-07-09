@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>movie watchlist</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="index.css">
+            <script defer src="index.js"></script>
+            <script>value = localStorage["key"]</script>
+        </head>
+        <body>
+            <header>  
+            </header>
+            <section class="input-section">
+                <h1>movies I <span>want to watch</span></h1>
+                <form class="input">
+                    <input onclick="getWant()" type="text" class="placeholder" id="getWant" placeholder="I want to watch">
+                    <input onclick="getHave()" type="text" class="placeholder" id="getHave" placeholder="I have watched" data-fetch-have-watched>
+                </form>
+                <div class="button-section">
+                    <a href="index.html" class="btn" id="wantBtn">return to main</a>
+                    <a onclick="haveWatched()" href= "haveWatched.html" class="btn" id="haveBtn">visit: have watched</a>
+                </div>
+            </section>
+            <section class="containerWantWatch">
+                    <div class="movieWantLine" id="movie-want-line">
+                        <div class="movieTitle" id="title">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine">
+                        <div class="movieTitle" id="title">The Big Lebowsky</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+                    
+                    <div class="movieWantLine">
+                        <div class="movieTitle" id="title">Everything, Everywhere, all at once</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine">
+                        <div class="movieTitle">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine">
+                        <div class="movieTitle">The Big Lebowsky</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+                    
+                    <div class="movieWantLine">
+                        <div class="movieTitle">Everything, Everywhere, all at once</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine">
+                        <div class="movieTitle">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine">
+                        <div class="movieTitle">The Big Lebowsky</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+                    
+                    <div class="movieWantLine">
+                        <div class="movieTitle">Everything, Everywhere, all at once</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine" id="movie-want-line">
+                        <div class="movieTitle" id="title">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine">
+                        <div class="movieTitle" id="title">The Big Lebowsky</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+                    
+                    <div class="movieWantLine">
+                        <div class="movieTitle" id="title">Everything, Everywhere, all at once</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine" id="movie-want-line">
+                        <div class="movieTitle" id="title">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine">
+                        <div class="movieTitle" id="title">The Big Lebowsky</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+                    
+                    <div class="movieWantLine">
+                        <div class="movieTitle" id="title">Everything, Everywhere, all at once</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine" id="movie-want-line">
+                        <div class="movieTitle" id="title">The Lord of the Rings</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+
+                    <div class="movieWantLine">
+                        <div class="movieTitle" id="title">The Big Lebowsky</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+                    
+                    <div class="movieWantLine">
+                        <div class="movieTitle" id="title">Everything, Everywhere, all at once</div>
+                        <div>
+                            <button onclick="watchedBtn()" class="btn watchedBtn" id="watchedBtnId">watched</button>
+                        </div>
+                    </div>
+            </section>
+            <button onclick="topBtn()" class="btn toTop" id="to-top-btn">top</button> 
+        </body>
+    </html>
